@@ -28,7 +28,7 @@ lines.append(points[0][4])
 for i in points:
     if i[4] not in lines:
         w.line([temp])
-        w.record(args.ID,order)
+        w.record(args.ID,0)
         order += 1
         temp = []
         lines.append(i[4])
