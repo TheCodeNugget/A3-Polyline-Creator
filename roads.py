@@ -1,6 +1,6 @@
-import shapefile
 import argparse
 from pathlib import Path
+import shapefile
 
 parser = argparse.ArgumentParser(description = "Simple Python Script to remove duplicates from Terrain Builder Object Files")
 parser.add_argument("roads", type=str, help="Path of the Objects File")
