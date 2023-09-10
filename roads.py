@@ -19,7 +19,7 @@ for line in f:
 f.close()
 
 points = []
-f = open("Highway.txt","r")
+f = open("highway.txt","r")
 for line in f:
     lineItems = line.split(";")
     points.append([float(lineItems[1]), float(lineItems[2])])
